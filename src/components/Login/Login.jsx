@@ -1,4 +1,4 @@
-// import styled from 'styled-components';
+
 
 import LogoOne from "./LogoOne";
 import PosterImage from "./BGimage";
@@ -27,14 +27,6 @@ const Login = (props) => {
 };
 
 
-// const Container = styled.section`
-// overflow:hidden;
-// display:flex;
-// flex
-// `
-
-// const Content = styled.div`
-// `
 
 
 export default Login;
