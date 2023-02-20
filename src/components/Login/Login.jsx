@@ -1,5 +1,3 @@
-
-
 import LogoOne from "./LogoOne";
 import PosterImage from "./BGimage";
 import SignupButton from "./SignupButton";
