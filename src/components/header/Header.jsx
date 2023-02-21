@@ -3,8 +3,10 @@ import LoginButton from './LoginButton'
 import LogoOne from './LogoOne'
 import NavMenu from './NavMenu'
 
+
+
 const Header = () => {
-  return (
+return (
     <nav>
         <LogoOne/>
         <NavMenu/>
