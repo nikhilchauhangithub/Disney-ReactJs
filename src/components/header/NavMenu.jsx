@@ -10,7 +10,7 @@ import originalcon from "../assets/images/originalcon.svg"
 const NavMenu = () => {
   return (
     <main>
-         <NavLink to={"/"} className="navlink"><img src={homeIcon} alt="home" className='logos' /><span>home</span></NavLink>
+         <NavLink to={"/home"} className="navlink"><img src={homeIcon} alt="home" className='logos' /><span>home</span></NavLink>
             <NavLink to={"/search"} className="navlink"><img src={homeIcon} alt="home" className='logos' /><span>Search</span></NavLink>
             <NavLink to={"/watchlist"} className="navlink"><img src={watchlistIcon} alt="home" className='logos' /><span>Watchlist</span></NavLink>
             <NavLink to={"/originals"} className="navlink"><img src={originalcon} alt="home" className='logos' /><span>Originals</span></NavLink>

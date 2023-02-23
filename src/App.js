@@ -5,6 +5,7 @@ import Login from './components/Login/Login';
 import './styles/App.scss'
 import './styles/Login.scss'
 import './styles/Header.scss'
+import Home from './components/home/Home';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Header/>
         <Routes>
         <Route path="/" element={<Login />} />
+        <Route path="/home" element={<Home />} />
           </Routes>
       </Router>
       
